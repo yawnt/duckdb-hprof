@@ -1,0 +1,8 @@
+target/
+build/
+*.duckdb_extension
+*.duckdb_extension.wasm
+__pycache__/
+*.egg-info/
+venv/
+configure/

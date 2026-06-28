@@ -1,0 +1,16 @@
+[package]
+name = "hprof"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+strip = true
+
+[dependencies]
+quack-rs = "0.14"
+libduckdb-sys = "1"
+petgraph = "0.8.3"
